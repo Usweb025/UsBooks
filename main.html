@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books Beast - Book Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .intro h2 {
+            font-size: 2.2em;
+            color: #333;
+        }
+
+        .featured-books {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .featured-book {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .featured-book img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .featured-book h3 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .featured-book p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .featured-books {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .featured-book {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UsBooks</h1>
+    <p>Your Ultimate Book Review Hub</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="maintainance.html">Book Reviews</a></li>
+        <li><a href="maintainance.html">About Us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+</nav>
+
+<section class="intro">
+    <h2>Welcome to Books Beast!</h2>
+    <p>Your one-stop destination for honest and in-depth book reviews. Find the best books and get expert opinions on your favorite reads!</p>
+</section>
+
+<section class="featured-books">
+    <div class="featured-book">
+        <img src="https://i0.wp.com/americanwritersmuseum.org/wp-content/uploads/2018/02/CK-3.jpg?resize=267%2C400&ssl=1"alt="Featured Book 1" height="500">
+        <h3>The Great Adventure</h3>
+        <p>An exciting journey of self-discovery and adventure. Perfect for lovers of fantasy and mystery!</p>
+    </div>
+
+    <div class="featured-book">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFe_nR8cUhkckk_U_hdIHGQQhMPVp84bvL7eRVV8RL9MF_jEo5" alt="Featured Book 2" height="500">
+        <h3>Thrills and Chills</h3>
+        <p>A spine-tingling thriller that will keep you on the edge of your seat until the very end.</p>
+    </div>
+
+    <div class="featured-book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLLt78wEnhdrXOP_BS2iCi1ZngoSvsqV8rtg&s" alt="Featured Book 3" height="500">
+        <h3>Love Lost</h3>
+        <p>A heart-wrenching romance that explores the complexities of love and loss.</p>
+    </div>
+    <div class="featured-book">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR87X-BTk8qLTG19n7tIC0RRP4CCJ-vXHMU7jrVwHh8MCU9R8LZ" alt="Featured Book 1" height="500">
+        <h3>humorous and top notch</h3>
+        <p>sugar coated humour that will make you laugh breathlessly</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Books Beast. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
